@@ -86,7 +86,7 @@ Available options for the v3 api are:
 ```
 
 ```go
-err := captcha.VerifyWithOptions(recaptchaResponse, , VerifyOption{Action: "hompage", Treshold: 0.8})
+err := captcha.VerifyWithOptions(recaptchaResponse, VerifyOption{Action: "hompage", Treshold: 0.8})
 if err != nil {
     // do something with err (log?)
 }
